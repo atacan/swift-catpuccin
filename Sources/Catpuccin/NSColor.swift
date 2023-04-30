@@ -262,5 +262,3 @@
         return UserDefaults.standard.string(forKey: "AppleInterfaceStyle") == "Dark"
     }
 #endif
-
-
