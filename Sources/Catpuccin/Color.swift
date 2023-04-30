@@ -83,69 +83,69 @@
             return Color(Color.RGBColorSpace.sRGB, red: 188 / 255, green: 192 / 255, blue: 204 / 255, opacity: 1)
         case .surface0:
             return Color(Color.RGBColorSpace.sRGB, red: 204 / 255, green: 208 / 255, blue: 218 / 255, opacity: 1)
-        case .crust:
-            return Color(Color.RGBColorSpace.sRGB, red: 220 / 255, green: 224 / 255, blue: 232 / 255, opacity: 1)
-        case .mantle:
-            return Color(Color.RGBColorSpace.sRGB, red: 230 / 255, green: 233 / 255, blue: 239 / 255, opacity: 1)
         case .base:
             return Color(Color.RGBColorSpace.sRGB, red: 239 / 255, green: 241 / 255, blue: 245 / 255, opacity: 1)
+        case .mantle:
+            return Color(Color.RGBColorSpace.sRGB, red: 230 / 255, green: 233 / 255, blue: 239 / 255, opacity: 1)
+        case .crust:
+            return Color(Color.RGBColorSpace.sRGB, red: 220 / 255, green: 224 / 255, blue: 232 / 255, opacity: 1)
         }
     }
 
     private func frappe(_ label: ColorLabel) -> Color {
         switch label {
         case .rosewater:
-            return Color(Color.RGBColorSpace.sRGB, red: 242 / 255, green: 213 / 255, blue: 207 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 242 / 255, green: 213 / 255, blue: 207 / 255)
         case .flamingo:
-            return Color(Color.RGBColorSpace.sRGB, red: 238 / 255, green: 190 / 255, blue: 190 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 238 / 255, green: 190 / 255, blue: 190 / 255)
         case .pink:
-            return Color(Color.RGBColorSpace.sRGB, red: 244 / 255, green: 184 / 255, blue: 228 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 244 / 255, green: 184 / 255, blue: 228 / 255)
         case .mauve:
-            return Color(Color.RGBColorSpace.sRGB, red: 202 / 255, green: 158 / 255, blue: 230 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 202 / 255, green: 158 / 255, blue: 230 / 255)
         case .red:
-            return Color(Color.RGBColorSpace.sRGB, red: 231 / 255, green: 130 / 255, blue: 132 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 231 / 255, green: 130 / 255, blue: 132 / 255)
         case .maroon:
-            return Color(Color.RGBColorSpace.sRGB, red: 234 / 255, green: 153 / 255, blue: 156 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 234 / 255, green: 153 / 255, blue: 156 / 255)
         case .peach:
-            return Color(Color.RGBColorSpace.sRGB, red: 239 / 255, green: 159 / 255, blue: 118 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 239 / 255, green: 159 / 255, blue: 118 / 255)
         case .yellow:
-            return Color(Color.RGBColorSpace.sRGB, red: 229 / 255, green: 200 / 255, blue: 144 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 229 / 255, green: 200 / 255, blue: 144 / 255)
         case .green:
-            return Color(Color.RGBColorSpace.sRGB, red: 166 / 255, green: 209 / 255, blue: 137 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 166 / 255, green: 209 / 255, blue: 137 / 255)
         case .teal:
-            return Color(Color.RGBColorSpace.sRGB, red: 129 / 255, green: 200 / 255, blue: 190 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 129 / 255, green: 200 / 255, blue: 190 / 255)
         case .sky:
-            return Color(Color.RGBColorSpace.sRGB, red: 153 / 255, green: 209 / 255, blue: 219 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 153 / 255, green: 209 / 255, blue: 219 / 255)
         case .sapphire:
-            return Color(Color.RGBColorSpace.sRGB, red: 133 / 255, green: 193 / 255, blue: 220 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 133 / 255, green: 193 / 255, blue: 220 / 255)
         case .blue:
-            return Color(Color.RGBColorSpace.sRGB, red: 140 / 255, green: 170 / 255, blue: 238 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 140 / 255, green: 170 / 255, blue: 238 / 255)
         case .lavender:
-            return Color(Color.RGBColorSpace.sRGB, red: 186 / 255, green: 187 / 255, blue: 241 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 186 / 255, green: 187 / 255, blue: 241 / 255)
         case .text:
-            return Color(Color.RGBColorSpace.sRGB, red: 198 / 255, green: 208 / 255, blue: 245 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 198 / 255, green: 208 / 255, blue: 245 / 255)
         case .subtext1:
-            return Color(Color.RGBColorSpace.sRGB, red: 181 / 255, green: 191 / 255, blue: 226 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 181 / 255, green: 191 / 255, blue: 226 / 255)
         case .subtext0:
-            return Color(Color.RGBColorSpace.sRGB, red: 165 / 255, green: 173 / 255, blue: 206 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 165 / 255, green: 173 / 255, blue: 206 / 255)
         case .overlay2:
-            return Color(Color.RGBColorSpace.sRGB, red: 148 / 255, green: 156 / 255, blue: 187 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 148 / 255, green: 156 / 255, blue: 187 / 255)
         case .overlay1:
-            return Color(Color.RGBColorSpace.sRGB, red: 131 / 255, green: 139 / 255, blue: 167 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 131 / 255, green: 139 / 255, blue: 167 / 255)
         case .overlay0:
-            return Color(Color.RGBColorSpace.sRGB, red: 115 / 255, green: 121 / 255, blue: 148 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 115 / 255, green: 121 / 255, blue: 148 / 255)
         case .surface2:
-            return Color(Color.RGBColorSpace.sRGB, red: 98 / 255, green: 104 / 255, blue: 128 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 98 / 255, green: 104 / 255, blue: 128 / 255)
         case .surface1:
-            return Color(Color.RGBColorSpace.sRGB, red: 81 / 255, green: 87 / 255, blue: 109 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 81 / 255, green: 87 / 255, blue: 109 / 255)
         case .surface0:
-            return Color(Color.RGBColorSpace.sRGB, red: 65 / 255, green: 69 / 255, blue: 89 / 255, opacity: 1)
-        case .crust:
-            return Color(Color.RGBColorSpace.sRGB, red: 48 / 255, green: 52 / 255, blue: 70 / 255, opacity: 1)
-        case .mantle:
-            return Color(Color.RGBColorSpace.sRGB, red: 41 / 255, green: 44 / 255, blue: 60 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 65 / 255, green: 69 / 255, blue: 89 / 255)
         case .base:
-            return Color(Color.RGBColorSpace.sRGB, red: 35 / 255, green: 38 / 255, blue: 52 / 255, opacity: 1)
+            return Color(Color.RGBColorSpace.sRGB, red: 48 / 255, green: 52 / 255, blue: 70 / 255)
+        case .mantle:
+            return Color(Color.RGBColorSpace.sRGB, red: 41 / 255, green: 44 / 255, blue: 60 / 255)
+        case .crust:
+            return Color(Color.RGBColorSpace.sRGB, red: 35 / 255, green: 38 / 255, blue: 52 / 255)
         }
     }
 
@@ -197,11 +197,11 @@
             return Color(Color.RGBColorSpace.sRGB, red: 73 / 255, green: 77 / 255, blue: 100 / 255, opacity: 1)
         case .surface0:
             return Color(Color.RGBColorSpace.sRGB, red: 54 / 255, green: 58 / 255, blue: 79 / 255, opacity: 1)
-        case .crust:
+        case .base:
             return Color(Color.RGBColorSpace.sRGB, red: 36 / 255, green: 39 / 255, blue: 58 / 255, opacity: 1)
         case .mantle:
             return Color(Color.RGBColorSpace.sRGB, red: 30 / 255, green: 32 / 255, blue: 48 / 255, opacity: 1)
-        case .base:
+        case .crust:
             return Color(Color.RGBColorSpace.sRGB, red: 24 / 255, green: 25 / 255, blue: 38 / 255, opacity: 1)
         }
     }
