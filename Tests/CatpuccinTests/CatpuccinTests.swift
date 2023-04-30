@@ -1,4 +1,5 @@
 import XCTest
+
 @testable import Catpuccin
 
 final class CatpuccinTests: XCTestCase {
