@@ -32,6 +32,8 @@ catpuccin(.green, whenDark: .mocha, whenLight: .latte)
 
 To help you get started, an example project showcasing Catpuccin's integration with SwiftUI is provided in the Examples folder.
 
+https://user-images.githubusercontent.com/765873/235352692-2cdb5f18-952a-4e7e-a8d3-ce80664c9653.mov
+
 ## Installation
 
 To add the Catpuccin package to your project, follow these steps:
