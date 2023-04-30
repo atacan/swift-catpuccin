@@ -78,12 +78,12 @@
             return NSColor(srgbRed: 188 / 255, green: 192 / 255, blue: 204 / 255, alpha: 1)
         case .surface0:
             return NSColor(srgbRed: 204 / 255, green: 208 / 255, blue: 218 / 255, alpha: 1)
-        case .crust:
-            return NSColor(srgbRed: 220 / 255, green: 224 / 255, blue: 232 / 255, alpha: 1)
-        case .mantle:
-            return NSColor(srgbRed: 230 / 255, green: 233 / 255, blue: 239 / 255, alpha: 1)
         case .base:
             return NSColor(srgbRed: 239 / 255, green: 241 / 255, blue: 245 / 255, alpha: 1)
+        case .mantle:
+            return NSColor(srgbRed: 230 / 255, green: 233 / 255, blue: 239 / 255, alpha: 1)
+        case .crust:
+            return NSColor(srgbRed: 220 / 255, green: 224 / 255, blue: 232 / 255, alpha: 1)
         }
     }
 
@@ -135,11 +135,11 @@
             return NSColor(srgbRed: 81 / 255, green: 87 / 255, blue: 109 / 255, alpha: 1)
         case .surface0:
             return NSColor(srgbRed: 65 / 255, green: 69 / 255, blue: 89 / 255, alpha: 1)
-        case .crust:
+        case .base:
             return NSColor(srgbRed: 48 / 255, green: 52 / 255, blue: 70 / 255, alpha: 1)
         case .mantle:
             return NSColor(srgbRed: 41 / 255, green: 44 / 255, blue: 60 / 255, alpha: 1)
-        case .base:
+        case .crust:
             return NSColor(srgbRed: 35 / 255, green: 38 / 255, blue: 52 / 255, alpha: 1)
         }
     }
@@ -192,11 +192,11 @@
             return NSColor(srgbRed: 73 / 255, green: 77 / 255, blue: 100 / 255, alpha: 1)
         case .surface0:
             return NSColor(srgbRed: 54 / 255, green: 58 / 255, blue: 79 / 255, alpha: 1)
-        case .crust:
+        case .base:
             return NSColor(srgbRed: 36 / 255, green: 39 / 255, blue: 58 / 255, alpha: 1)
         case .mantle:
             return NSColor(srgbRed: 30 / 255, green: 32 / 255, blue: 48 / 255, alpha: 1)
-        case .base:
+        case .crust:
             return NSColor(srgbRed: 24 / 255, green: 25 / 255, blue: 38 / 255, alpha: 1)
         }
     }
@@ -249,11 +249,11 @@
             return NSColor(srgbRed: 69 / 255, green: 71 / 255, blue: 90 / 255, alpha: 1)
         case .surface0:
             return NSColor(srgbRed: 49 / 255, green: 50 / 255, blue: 68 / 255, alpha: 1)
-        case .crust:
+        case .base:
             return NSColor(srgbRed: 30 / 255, green: 30 / 255, blue: 46 / 255, alpha: 1)
         case .mantle:
             return NSColor(srgbRed: 24 / 255, green: 24 / 255, blue: 37 / 255, alpha: 1)
-        case .base:
+        case .crust:
             return NSColor(srgbRed: 17 / 255, green: 17 / 255, blue: 27 / 255, alpha: 1)
         }
     }
@@ -262,3 +262,5 @@
         return UserDefaults.standard.string(forKey: "AppleInterfaceStyle") == "Dark"
     }
 #endif
+
+

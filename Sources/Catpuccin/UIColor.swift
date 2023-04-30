@@ -36,8 +36,7 @@
             return catpuccin(lightFlavour, label)
         }
     }
-
-    func latte(_ label: ColorLabel) -> UIColor {
+    private func latte(_ label: ColorLabel) -> UIColor {
         switch label {
         case .rosewater:
             return UIColor(cgColor: CGColor(srgbRed: 220 / 255, green: 138 / 255, blue: 120 / 255, alpha: 1))
@@ -85,16 +84,16 @@
             return UIColor(cgColor: CGColor(srgbRed: 188 / 255, green: 192 / 255, blue: 204 / 255, alpha: 1))
         case .surface0:
             return UIColor(cgColor: CGColor(srgbRed: 204 / 255, green: 208 / 255, blue: 218 / 255, alpha: 1))
-        case .crust:
-            return UIColor(cgColor: CGColor(srgbRed: 220 / 255, green: 224 / 255, blue: 232 / 255, alpha: 1))
-        case .mantle:
-            return UIColor(cgColor: CGColor(srgbRed: 230 / 255, green: 233 / 255, blue: 239 / 255, alpha: 1))
         case .base:
             return UIColor(cgColor: CGColor(srgbRed: 239 / 255, green: 241 / 255, blue: 245 / 255, alpha: 1))
+        case .mantle:
+            return UIColor(cgColor: CGColor(srgbRed: 230 / 255, green: 233 / 255, blue: 239 / 255, alpha: 1))
+        case .crust:
+            return UIColor(cgColor: CGColor(srgbRed: 220 / 255, green: 224 / 255, blue: 232 / 255, alpha: 1))
         }
     }
 
-    func frappe(_ label: ColorLabel) -> UIColor {
+    private func frappe(_ label: ColorLabel) -> UIColor {
         switch label {
         case .rosewater:
             return UIColor(cgColor: CGColor(srgbRed: 242 / 255, green: 213 / 255, blue: 207 / 255, alpha: 1))
@@ -142,16 +141,16 @@
             return UIColor(cgColor: CGColor(srgbRed: 81 / 255, green: 87 / 255, blue: 109 / 255, alpha: 1))
         case .surface0:
             return UIColor(cgColor: CGColor(srgbRed: 65 / 255, green: 69 / 255, blue: 89 / 255, alpha: 1))
-        case .crust:
+        case .base:
             return UIColor(cgColor: CGColor(srgbRed: 48 / 255, green: 52 / 255, blue: 70 / 255, alpha: 1))
         case .mantle:
             return UIColor(cgColor: CGColor(srgbRed: 41 / 255, green: 44 / 255, blue: 60 / 255, alpha: 1))
-        case .base:
+        case .crust:
             return UIColor(cgColor: CGColor(srgbRed: 35 / 255, green: 38 / 255, blue: 52 / 255, alpha: 1))
         }
     }
 
-    func macchiato(_ label: ColorLabel) -> UIColor {
+    private func macchiato(_ label: ColorLabel) -> UIColor {
         switch label {
         case .rosewater:
             return UIColor(cgColor: CGColor(srgbRed: 244 / 255, green: 219 / 255, blue: 214 / 255, alpha: 1))
@@ -199,16 +198,16 @@
             return UIColor(cgColor: CGColor(srgbRed: 73 / 255, green: 77 / 255, blue: 100 / 255, alpha: 1))
         case .surface0:
             return UIColor(cgColor: CGColor(srgbRed: 54 / 255, green: 58 / 255, blue: 79 / 255, alpha: 1))
-        case .crust:
+        case .base:
             return UIColor(cgColor: CGColor(srgbRed: 36 / 255, green: 39 / 255, blue: 58 / 255, alpha: 1))
         case .mantle:
             return UIColor(cgColor: CGColor(srgbRed: 30 / 255, green: 32 / 255, blue: 48 / 255, alpha: 1))
-        case .base:
+        case .crust:
             return UIColor(cgColor: CGColor(srgbRed: 24 / 255, green: 25 / 255, blue: 38 / 255, alpha: 1))
         }
     }
 
-    func mocha(_ label: ColorLabel) -> UIColor {
+    private func mocha(_ label: ColorLabel) -> UIColor {
         switch label {
         case .rosewater:
             return UIColor(cgColor: CGColor(srgbRed: 245 / 255, green: 224 / 255, blue: 220 / 255, alpha: 1))
@@ -256,12 +255,13 @@
             return UIColor(cgColor: CGColor(srgbRed: 69 / 255, green: 71 / 255, blue: 90 / 255, alpha: 1))
         case .surface0:
             return UIColor(cgColor: CGColor(srgbRed: 49 / 255, green: 50 / 255, blue: 68 / 255, alpha: 1))
-        case .crust:
+        case .base:
             return UIColor(cgColor: CGColor(srgbRed: 30 / 255, green: 30 / 255, blue: 46 / 255, alpha: 1))
         case .mantle:
             return UIColor(cgColor: CGColor(srgbRed: 24 / 255, green: 24 / 255, blue: 37 / 255, alpha: 1))
-        case .base:
+        case .crust:
             return UIColor(cgColor: CGColor(srgbRed: 17 / 255, green: 17 / 255, blue: 27 / 255, alpha: 1))
         }
     }
+
 #endif
